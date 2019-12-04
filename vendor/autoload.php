@@ -5,3 +5,7 @@
 require_once __DIR__ . '/composer/autoload_real.php';
 
 return ComposerAutoloaderInite2e5de15796be8d2859d673a414b27ac::getLoader();
+
+$routes = require_once __DIR__. "/../app/routes.php"; // bootstrap - mover depois 
+$route=new \Core\Route($routes); // bootstrap - mover depois 
+
