@@ -1,8 +1,20 @@
 <div class="container">
     <div class="row">
-        <h1> Pagina Home </h1>
+        <h2 class="h2 col-xs-12"><?php $this->getPageTitle();?> </h2>
+            <div class=row>
+            <?php $this->renderView('alerts/_sucess');?>
+            <?php $this->renderView('alerts/_erros');?>
+                </div>
+                <div class= "row">
+                    <div class="col-xs-12 col-xs-offset-0 col-md-8 col-md-offset-2">
+                        <h1 class="h1 text-center">Blog Contratar</h1>
+                        <p>
+                         Este é um Blog de compartilhamento de oportunidade de serviços para quaisquer prestador.  
+                        </p>
+                        <p>
+                         O intúito do blog é dar uma oportunidade a diversos prestadores de serviços, a estarem disponibilizando seus contatos, e experiencias para os
+                         nossos usuarios. Criando vasto banco de informações para todos.    
+                        </p>
+                    </div>                                   
     </div>
 </div>
-
-
-<p>Nome: <?php echo $this->view->nome ?> </p>
