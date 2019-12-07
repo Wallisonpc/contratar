@@ -52,7 +52,7 @@ class Route {
             $routeArray = explode('/', $route [0]);
            
             for($i=0;$i<count($routeArray); $i++){
-             if((strpos($routeArray[$i],"{")!==false)&&(coount($urlArray) ==count($urlArray))){
+             if((strpos($routeArray[$i],"{")!==false)&&(count($urlArray) ==count($urlArray))){
                  $routeArray[$i] = $urlArray[$i];
                  $param[] = $urlArray[$i];
                  
