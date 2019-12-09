@@ -17,5 +17,7 @@ $route[] = ['/post/{id}/edit', 'PostsController@edit', 'auth'];
 $route[] = ['/post/{id}/update', 'PostsController@update', 'auth'];
 $route[] = ['/post/{id}/delete', 'PostsController@delete', 'auth'];
 
+
+
 return $route;
 
